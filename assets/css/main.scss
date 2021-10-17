@@ -9,9 +9,9 @@ body{
     cursor: pointer;
     span{
         display: block;
-        width: 1.8rem;
-        height: 3px;
-        margin-top: 4px;
+        width: 1.4rem;
+        height: 2px;
+        margin-top: 3px;
         background-color: #fff;
         &:nth-child(1){
             margin-top: 0;
@@ -54,9 +54,11 @@ body{
         margin-top: 2rem;
         display: flex;
         justify-content: center;
-        width: 100%;
+        align-items: center;
         input{
-            padding: 1rem 2rem;
+            font-size: 0.7rem;
+            padding: 1rem;
+            padding-left: 1.4rem;
             &:focus{
                 outline: #002042 solid 1px;
             }
@@ -67,7 +69,8 @@ body{
             background-color: #002042;
             color: #fff;
             text-transform: uppercase;
-            font-weight: 700;
+            font-size: 0.7rem;
+            font-weight: 600;
             cursor: pointer;
             transition: background-color 300ms ease-in-out;
             &:hover{
