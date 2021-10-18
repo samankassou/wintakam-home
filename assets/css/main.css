@@ -88,6 +88,7 @@ body {
 .toggler {
   background-color: transparent;
   cursor: pointer;
+  margin-left: 1rem;
 }
 
 .toggler span {
@@ -96,6 +97,8 @@ body {
   height: 2px;
   margin-top: 4px;
   background-color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .toggler span:nth-child(1) {
@@ -103,8 +106,8 @@ body {
 }
 
 .toggler.active span:nth-child(1) {
-  -webkit-transform: rotateY(45deg);
-          transform: rotateY(45deg);
+  -webkit-transform: rotate(-45deg) translateX(-9px);
+          transform: rotate(-45deg) translateX(-9px);
 }
 
 .toggler.active span:nth-child(2) {
@@ -112,8 +115,8 @@ body {
 }
 
 .toggler.active span:nth-child(3) {
-  -webkit-transform: rotateY(-45deg);
-          transform: rotateY(-45deg);
+  -webkit-transform: rotate(45deg) translateX(-9px);
+          transform: rotate(45deg) translateX(-9px);
 }
 
 .nav {
