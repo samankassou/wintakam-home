@@ -124,18 +124,31 @@ body{
     }
 }
 .section{
+    background-color: #fff;
     &__heading{
-        color: #fff;
+        color: #002042;
         font-weight: 700;
         text-transform: uppercase;
         text-align: center;
-        margin-top: 2rem;
         margin-bottom: 1.5rem;
         position: relative;
+        margin: 2rem auto;
     }
 }
 .article{
     background-color: #fff;
+    &__image-box{
+        position: relative;
+    }
+    &__price{
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        padding: 8px;
+        background-color: rgba($color: #002042, $alpha: 0.3);
+        color: #fff;
+        font-weight: 700;
+    }
     &__info{
         h2{
             font-size: 1.2rem;

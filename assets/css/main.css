@@ -248,18 +248,36 @@ body {
   display: flex;
 }
 
+.section {
+  background-color: #fff;
+}
+
 .section__heading {
-  color: #fff;
+  color: #002042;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
-  margin-top: 2rem;
   margin-bottom: 1.5rem;
   position: relative;
+  margin: 2rem auto;
 }
 
 .article {
   background-color: #fff;
+}
+
+.article__image-box {
+  position: relative;
+}
+
+.article__price {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  padding: 8px;
+  background-color: rgba(0, 32, 66, 0.3);
+  color: #fff;
+  font-weight: 700;
 }
 
 .article__info h2 {
