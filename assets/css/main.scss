@@ -17,6 +17,17 @@ body{
             margin-top: 0;
         }
     }
+    &.active{
+        span:nth-child(1){
+            transform: rotateY(45deg);
+        }
+        span:nth-child(2){
+            opacity: 0;
+        }
+        span:nth-child(3){
+            transform: rotateY(-45deg);
+        }
+    }
 }
 .nav{
     display: flex;
