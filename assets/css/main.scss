@@ -95,6 +95,45 @@ body{
         }
     }
 }
+.menu-mobile{
+    position: absolute;
+    top: 6rem;
+    left: 0;
+    background-color: #002042;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 6rem);
+    z-index: 20;
+    width: 0;
+    transition: width 0.5s ease-in-out;
+    a{
+        text-decoration: none;
+        color: #fff;
+        display: none;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+    &.active{
+        width: 80%;
+        a{
+            opacity: 1;
+            display: flex;
+        }
+    }
+}
+.section{
+    &__heading{
+        color: #fff;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+        position: relative;
+    }
+}
 .article{
     background-color: #fff;
     &__info{
