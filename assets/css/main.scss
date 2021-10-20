@@ -70,10 +70,7 @@ body{
         color: #fff;
         text-align: center;
         margin: 1rem 0;
-        span{
-            color: #002042;
-            font-weight: 700;
-        }
+        font-size: 1.4rem;
     }
 
     &__form{
@@ -91,7 +88,7 @@ body{
         input{
             font-size: 1rem;
             padding: 1rem;
-            padding-left: 1.8rem;
+            padding-left: 2rem;
             &:focus{
                 outline: #002042 solid 1px;
             }
@@ -173,6 +170,7 @@ body{
         background-color: rgba($color: #002042, $alpha: 0.3);
         color: #fff;
         font-weight: 700;
+        font-size: 1.7rem;
     }
     &__info{
 

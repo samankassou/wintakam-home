@@ -169,11 +169,7 @@ body {
   color: #fff;
   text-align: center;
   margin: 1rem 0;
-}
-
-.header__description span {
-  color: #002042;
-  font-weight: 700;
+  font-size: 1.4rem;
 }
 
 .header__form {
@@ -200,7 +196,7 @@ body {
 .header__form input {
   font-size: 1rem;
   padding: 1rem;
-  padding-left: 1.8rem;
+  padding-left: 2rem;
 }
 
 .header__form input:focus {
@@ -306,6 +302,7 @@ body {
   background-color: rgba(0, 32, 66, 0.3);
   color: #fff;
   font-weight: 700;
+  font-size: 1.7rem;
 }
 
 .article__info h2 {
