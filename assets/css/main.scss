@@ -121,12 +121,17 @@ body{
     z-index: 20;
     width: 0;
     transition: width 0.5s ease-in-out;
-    a{
+    &__item{
         text-decoration: none;
         color: #fff;
         display: none;
         opacity: 0;
         transition: opacity 0.3s;
+        &--btn{
+            padding: 1rem 2rem;
+            background-color: #ffa300;
+            font-size: 1.2rem;
+        }
     }
     &.active{
         width: 80%;

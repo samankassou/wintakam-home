@@ -242,13 +242,19 @@ body {
   transition: width 0.5s ease-in-out;
 }
 
-.menu-mobile a {
+.menu-mobile__item {
   text-decoration: none;
   color: #fff;
   display: none;
   opacity: 0;
   -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s;
+}
+
+.menu-mobile__item--btn {
+  padding: 1rem 2rem;
+  background-color: #ffa300;
+  font-size: 1.2rem;
 }
 
 .menu-mobile.active {
