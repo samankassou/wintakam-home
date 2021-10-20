@@ -91,6 +91,12 @@ body {
   margin-left: 1rem;
 }
 
+@media screen and (min-width: 540px) {
+  .toggler {
+    margin-left: 1.5rem;
+  }
+}
+
 .toggler span {
   display: block;
   width: 1.4rem;
@@ -139,8 +145,21 @@ body {
   margin-right: 1rem;
 }
 
+@media screen and (min-width: 540px) {
+  .nav__user-icon {
+    margin-right: 1.5rem;
+    font-size: 2rem;
+  }
+}
+
 .logo img {
   height: 3rem;
+}
+
+@media screen and (min-width: 540px) {
+  .logo img {
+    height: 4rem;
+  }
 }
 
 .content {
@@ -165,11 +184,23 @@ body {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 540px) {
+  .header__logo img {
+    height: 4rem;
+  }
+}
+
 .header__description {
   color: #fff;
   text-align: center;
   margin: 1rem 0;
   font-size: 1.4rem;
+}
+
+@media screen and (min-width: 540px) {
+  .header__description {
+    font-size: 1.7rem;
+  }
 }
 
 .header__form {
@@ -179,11 +210,25 @@ body {
   position: relative;
 }
 
+@media screen and (min-width: 540px) {
+  .header__form {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
 .header__form-icon {
   position: absolute;
   left: 1rem;
   top: 1rem;
   color: #002042;
+}
+
+@media screen and (min-width: 540px) {
+  .header__form-icon {
+    top: 1.3rem;
+    font-size: 1.2rem;
+  }
 }
 
 .header__form input {
@@ -196,6 +241,12 @@ body {
 
 .header__form input:focus {
   outline: #002042 solid 1px;
+}
+
+@media screen and (min-width: 540px) {
+  .header__form input {
+    font-size: 1.5rem;
+  }
 }
 
 .header__form button {
@@ -214,6 +265,12 @@ body {
 
 .header__form button:hover {
   background-color: rgba(0, 32, 66, 0.3);
+}
+
+@media screen and (min-width: 540px) {
+  .header__form button {
+    font-size: 1.5rem;
+  }
 }
 
 .menu-mobile {
@@ -249,10 +306,16 @@ body {
   transition: opacity 0.3s;
 }
 
+@media screen and (min-width: 540px) {
+  .menu-mobile__item {
+    font-size: 1.2rem;
+  }
+}
+
 .menu-mobile__item--btn {
   padding: 1rem 2rem;
   background-color: #ffa300;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .menu-mobile.active {
@@ -282,9 +345,20 @@ body {
   position: relative;
 }
 
+@media screen and (min-width: 540px) {
+  .section__heading {
+    font-size: 2rem;
+  }
+}
+
 .article {
   background-color: #fff;
   padding-bottom: 2rem;
+  display: block;
+}
+
+.article img {
+  width: 100%;
 }
 
 .article__image-box {
@@ -302,15 +376,35 @@ body {
   font-size: 1.7rem;
 }
 
+@media screen and (min-width: 540px) {
+  .article__price {
+    font-size: 2rem;
+  }
+}
+
 .article__info h2 {
   font-weight: 700;
 }
 
+@media screen and (min-width: 540px) {
+  .article__info h2 {
+    font-size: 2rem;
+  }
+}
+
 .article__info p {
+  font-size: 1.3rem;
   line-height: 1.5rem;
   color: #7c7a7a;
   text-align: justify;
   padding: 0.5rem 1rem 0;
+}
+
+@media screen and (min-width: 540px) {
+  .article__info p {
+    padding: 0.5rem 1.5rem 0;
+    font-size: 1.5rem;
+  }
 }
 
 .article__heading {
@@ -328,6 +422,14 @@ body {
   font-size: 1.6rem;
 }
 
+@media screen and (min-width: 540px) {
+  .article__heading {
+    margin: 1.5rem auto 0;
+    padding: 0 1.5rem;
+    font-size: 1.8rem;
+  }
+}
+
 .article__bookmark-icon {
   color: #7c7a7a;
 }
@@ -335,6 +437,13 @@ body {
 .article__stars {
   margin: 1rem;
   color: #ffa300;
+}
+
+@media screen and (min-width: 540px) {
+  .article__stars {
+    margin: 1.5rem;
+    font-size: 1.5rem;
+  }
 }
 
 .article__meta {
@@ -350,6 +459,13 @@ body {
           flex-direction: column;
   gap: 0.7rem;
   color: #9c9a9a;
+}
+
+@media screen and (min-width: 540px) {
+  .article__meta {
+    margin-top: 1.5rem;
+    padding: 0 1.5rem;
+  }
 }
 
 .article__meta span {
@@ -369,5 +485,11 @@ body {
   text-transform: uppercase;
   text-align: center;
   font-size: 1.3rem;
+}
+
+@media screen and (min-width: 540px) {
+  .article__btn {
+    width: 50%;
+  }
 }
 /*# sourceMappingURL=main.css.map */

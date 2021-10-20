@@ -8,6 +8,9 @@ body{
     background-color: transparent;
     cursor: pointer;
     margin-left: 1rem;
+    @media screen and (min-width: 540px){
+        margin-left: 1.5rem;
+    }
     span{
         display: block;
         width: 1.4rem;
@@ -43,11 +46,18 @@ body{
         color: #fff;
         font-size: 1.5rem;
         margin-right: 1rem;
+        @media screen and (min-width: 540px){
+            margin-right: 1.5rem;
+            font-size: 2rem;
+        }
     }
 }
 .logo{
     img{
         height: 3rem;
+        @media screen and (min-width: 540px){
+            height: 4rem;
+        }
     }
 }
 .content{
@@ -64,6 +74,9 @@ body{
         img{
             height: 3rem;
             margin: 0 auto;
+            @media screen and (min-width: 540px){
+                height: 4rem;
+            }
         }
     }
     &__description{
@@ -71,6 +84,9 @@ body{
         text-align: center;
         margin: 1rem 0;
         font-size: 1.4rem;
+        @media screen and (min-width: 540px){
+            font-size: 1.7rem;
+        }
     }
 
     &__form{
@@ -78,11 +94,19 @@ body{
         position: relative;
         background-color: #c9e0f8;
         position: relative;
+        @media screen and (min-width: 540px){
+            width: 80%;
+            margin: 0 auto;
+        }
         &-icon{
             position: absolute;
             left: 1rem;
             top: 1rem;
             color: #002042;
+            @media screen and (min-width: 540px){
+                top: 1.3rem;
+                font-size: 1.2rem;
+            }
         }
         input{
             font-size: 1rem;
@@ -92,6 +116,9 @@ body{
             width: 100%;
             &:focus{
                 outline: #002042 solid 1px;
+            }
+            @media screen and (min-width: 540px){
+                font-size: 1.5rem;
             }
         }
 
@@ -108,6 +135,9 @@ body{
             transition: background-color 300ms ease-in-out;
             &:hover{
                 background-color: rgba($color: #002042, $alpha: 0.3);
+            }
+            @media screen and (min-width: 540px){
+               font-size: 1.5rem;
             }
         }
     }
@@ -131,10 +161,13 @@ body{
         display: none;
         opacity: 0;
         transition: opacity 0.3s;
+        @media screen and (min-width: 540px){
+            font-size: 1.2rem;
+        }
         &--btn{
             padding: 1rem 2rem;
             background-color: #ffa300;
-            font-size: 1.2rem;
+            font-size: 1.5rem;
         }
     }
     &.active{
@@ -157,11 +190,18 @@ body{
         text-transform: uppercase;
         text-align: center;
         position: relative;
+        @media screen and (min-width: 540px){
+            font-size: 2rem;
+        }
     }
 }
 .article{
     background-color: #fff;
     padding-bottom: 2rem;
+    display: block;
+    img{
+        width: 100%;
+    }
     &__image-box{
         position: relative;
     }
@@ -174,17 +214,28 @@ body{
         color: #fff;
         font-weight: 700;
         font-size: 1.7rem;
+        @media screen and (min-width: 540px){
+            font-size: 2rem;
+        }
     }
     &__info{
 
         h2{
             font-weight: 700;
+            @media screen and (min-width: 540px){
+                font-size: 2rem;
+            }
         }
         p{
+            font-size: 1.3rem;
             line-height: 1.5rem;
             color: #7c7a7a;
             text-align: justify;
             padding: 0.5rem 1rem 0;
+            @media screen and (min-width: 540px){
+                padding: 0.5rem 1.5rem 0;
+                font-size: 1.5rem;
+            }
         }
     }
     &__heading{
@@ -194,6 +245,11 @@ body{
         padding: 0 1rem;
         align-items: center;
         font-size: 1.6rem;
+        @media screen and (min-width: 540px){
+            margin: 1.5rem auto 0;
+            padding: 0 1.5rem;
+            font-size: 1.8rem;
+        }
     }
     &__bookmark-icon{
         color: #7c7a7a;
@@ -201,6 +257,10 @@ body{
     &__stars{
         margin: 1rem;
         color: #ffa300;
+        @media screen and (min-width: 540px){
+            margin: 1.5rem;
+            font-size: 1.5rem;
+        }
     }
     &__meta{
         font-size: 1rem;
@@ -210,6 +270,10 @@ body{
         flex-direction: column;
         gap: 0.7rem;
         color: #9c9a9a;
+        @media screen and (min-width: 540px){
+            margin-top: 1.5rem;
+            padding: 0 1.5rem;
+        }
         span{
             display: inline-block;
             margin-left: 1rem;
@@ -226,5 +290,8 @@ body{
         text-transform: uppercase;
         text-align: center;
         font-size: 1.3rem;
+        @media screen and (min-width: 540px){
+            width: 50%;
+        }
     }
 }
