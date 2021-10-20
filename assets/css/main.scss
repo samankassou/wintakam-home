@@ -199,11 +199,22 @@ body{
     background-color: #fff;
     padding-bottom: 2rem;
     display: block;
+    position: relative;
+    @media (min-width: 768px) {  
+        display: flex;
+        flex-wrap: wrap;
+    }
     img{
         width: 100%;
+        @media (min-width: 768px) {  
+            height: 100%;
+        }
     }
     &__image-box{
         position: relative;
+        @media (min-width: 768px) {  
+            width: 40%;
+        }
     }
     &__price{
         position: absolute;
@@ -219,6 +230,9 @@ body{
         }
     }
     &__info{
+        @media (min-width: 768px) {  
+            width: 60%;
+        }
 
         h2{
             font-weight: 700;
@@ -274,6 +288,9 @@ body{
             margin-top: 1.5rem;
             padding: 0 1.5rem;
         }
+        @media (min-width: 768px) {  
+           font-size: 1.3rem;
+        }
         span{
             display: inline-block;
             margin-left: 1rem;
@@ -292,6 +309,17 @@ body{
         font-size: 1.3rem;
         @media screen and (min-width: 540px){
             width: 50%;
+        }
+        @media (min-width: 768px) {  
+            position: absolute;
+            bottom: 2rem;
+            right: 0;
+            width: 8rem;
+            margin: 0;
+            padding: 1rem;
+            font-size: 1rem;
+            border-top-left-radius: 1.5rem;
+            border-bottom-left-radius: 1.5rem;
         }
     }
 }

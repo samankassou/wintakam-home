@@ -355,14 +355,37 @@ body {
   background-color: #fff;
   padding-bottom: 2rem;
   display: block;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 .article img {
   width: 100%;
 }
 
+@media (min-width: 768px) {
+  .article img {
+    height: 100%;
+  }
+}
+
 .article__image-box {
   position: relative;
+}
+
+@media (min-width: 768px) {
+  .article__image-box {
+    width: 40%;
+  }
 }
 
 .article__price {
@@ -379,6 +402,12 @@ body {
 @media screen and (min-width: 540px) {
   .article__price {
     font-size: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .article__info {
+    width: 60%;
   }
 }
 
@@ -468,6 +497,12 @@ body {
   }
 }
 
+@media (min-width: 768px) {
+  .article__meta {
+    font-size: 1.3rem;
+  }
+}
+
 .article__meta span {
   display: inline-block;
   margin-left: 1rem;
@@ -490,6 +525,20 @@ body {
 @media screen and (min-width: 540px) {
   .article__btn {
     width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .article__btn {
+    position: absolute;
+    bottom: 2rem;
+    right: 0;
+    width: 8rem;
+    margin: 0;
+    padding: 1rem;
+    font-size: 1rem;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
