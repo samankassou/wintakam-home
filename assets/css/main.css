@@ -171,6 +171,11 @@ body {
   margin: 1rem 0;
 }
 
+.header__description span {
+  color: #002042;
+  font-weight: 700;
+}
+
 .header__form {
   margin-top: 2rem;
   display: -webkit-box;
