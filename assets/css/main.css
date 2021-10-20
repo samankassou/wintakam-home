@@ -404,14 +404,16 @@ body {
 
 @media (min-width: 768px) {
   .article {
+    padding-bottom: 0;
+    margin-bottom: 2rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    box-shadow: 0px 14px 21px -14px rgba(0, 0, 0, 0.76);
-    -webkit-box-shadow: 0px 14px 21px -14px rgba(0, 0, 0, 0.76);
-    -moz-box-shadow: 0px 14px 21px -14px rgba(0, 0, 0, 0.76);
+    box-shadow: -1px 3px 10px -10px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 3px 10px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 3px 10px -10px rgba(0, 0, 0, 0.75);
   }
 }
 
@@ -547,6 +549,7 @@ body {
 @media (min-width: 768px) {
   .article__meta {
     font-size: 1.3rem;
+    padding-bottom: 1rem;
   }
 }
 
@@ -578,7 +581,7 @@ body {
 @media (min-width: 768px) {
   .article__btn {
     position: absolute;
-    bottom: 2rem;
+    bottom: 0;
     right: 0;
     width: 8rem;
     margin: 0;
