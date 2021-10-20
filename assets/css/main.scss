@@ -75,9 +75,8 @@ body{
 
     &__form{
         margin-top: 2rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        position: relative;
+        background-color: #c9e0f8;
         position: relative;
         &-icon{
             position: absolute;
@@ -87,14 +86,18 @@ body{
         }
         input{
             font-size: 1rem;
-            padding: 1rem;
-            padding-left: 2rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            padding-left: 2.5rem;
+            width: 100%;
             &:focus{
                 outline: #002042 solid 1px;
             }
         }
 
         button{
+            position: absolute;
+            right: 0;
             padding: 1rem;
             background-color: #002042;
             color: #fff;
