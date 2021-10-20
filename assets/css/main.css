@@ -266,6 +266,7 @@ body {
 
 .article {
   background-color: #fff;
+  padding: 2rem 0;
 }
 
 .article__image-box {
@@ -291,10 +292,38 @@ body {
 }
 
 .article__info p {
-  font-size: 0.9rem;
-  line-height: 1.2rem;
-  color: #9c9a9a;
+  line-height: 1.5rem;
+  color: #7c7a7a;
   text-align: justify;
+  padding: 0.5rem 1rem 0;
+}
+
+.article__meta {
+  font-size: 1rem;
+  margin-top: 1rem;
   padding: 0 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.7rem;
+  color: #9c9a9a;
+}
+
+.article__btn {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e71414), to(#bd0f0f));
+  background-image: linear-gradient(#e71414, #bd0f0f);
+  color: #fff;
+  display: block;
+  width: 70%;
+  margin: 1.5rem auto 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.3rem;
 }
 /*# sourceMappingURL=main.css.map */

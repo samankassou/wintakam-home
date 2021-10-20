@@ -139,6 +139,7 @@ body{
 }
 .article{
     background-color: #fff;
+    padding: 2rem 0;
     &__image-box{
         position: relative;
     }
@@ -160,11 +161,31 @@ body{
             padding: 0 1rem;
         }
         p{
-            font-size: 0.9rem;
-            line-height: 1.2rem;
-            color: #9c9a9a;
+            line-height: 1.5rem;
+            color: #7c7a7a;
             text-align: justify;
-            padding: 0 1rem;
+            padding: 0.5rem 1rem 0;
         }
+    }
+    &__meta{
+        font-size: 1rem;
+        margin-top: 1rem;
+        padding: 0 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.7rem;
+        color: #9c9a9a;
+    }
+    &__btn{
+        text-decoration: none;
+        padding: 1rem 2rem;
+        background-image: linear-gradient(rgb(231, 20, 20), rgb(189, 15, 15));
+        color: #fff;
+        display: block;
+        width: 70%;
+        margin: 1.5rem auto 0;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.3rem;
     }
 }
