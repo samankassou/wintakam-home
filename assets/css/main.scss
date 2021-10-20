@@ -71,15 +71,23 @@ body{
         text-align: center;
         margin: 1rem 0;
     }
+
     &__form{
         margin-top: 2rem;
         display: flex;
         justify-content: center;
         align-items: center;
+        position: relative;
+        &-icon{
+            position: absolute;
+            left: 1rem;
+            top: 1rem;
+            color: #002042;
+        }
         input{
             font-size: 1rem;
             padding: 1rem;
-            padding-left: 1.4rem;
+            padding-left: 1.8rem;
             &:focus{
                 outline: #002042 solid 1px;
             }
