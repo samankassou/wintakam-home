@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil - Wintakam</title>
-    <link rel="stylesheet" href="./vendor/fontawesome/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+
     <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 <body>
@@ -19,7 +22,9 @@
             <a href="#" class="logo" id="logo">
                 <img src="./assets/images/logo-1.png" alt="Wintakam logo">
             </a>
-            <span></span>
+            <span class="nav__user-icon">
+                <i class="fas fa-user"></i>
+            </span>
             <nav class="menu-mobile" id="menu-mobile">
                 <a href="#">Categories</a>
                 <a href="#">Se connecter</a>
@@ -27,6 +32,7 @@
                 <a href="#">Publier une annonce</a>
                 <a href="#">Aide</a>
             </nav>
+
         </nav>
     </div>
     <div class="content">
@@ -51,18 +57,23 @@
                     <h2 class="section__heading">Dernieres annonces</h2>
                     <article class="article">
                         <div class="article__image-box">
-                            <span class="article__price">200 000 FCFA / AN</span>
-                            <img src="./assets/images/house-1.jpg" alt="">
+                            <span class="article__price">2 100 000 FCFA / AN</span>
+                            <img src="./assets/images/house-2.jpg" alt="">
                         </div>
                         <div class="article__info">
-                            <h2>Maloum Appartement & Fils</h2>
+                            <div class="article__heading">
+                                <h2 class="article__title">Maloum Appartement & Fils </h2>
+                                <span class="article__bookmark-icon"><i class="far fa-bookmark"></i></span>
+                            </div>
+                            <div class="article__stars">
+
+                            </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     Odit illo iure voluptate vitae laborum pariatur sunt repellat neque itaque reiciendis hic atque, voluptatibus, 
                                     labore totam nihil fugit quidem! Porr...</p>
                             <div class="article__meta">
-                                <span><i class="fas fa-user"></i> Publiée le 20, Octobre 2021</span>
-                                <span><i class="fas fa-github"></i> Douala, 2.5km du Centre</span>
-                                <span><i class="fas fa-linkedin"></i></span>
+                                <div><i class="fas fa-calendar-alt"></i> <span>Publiée le 20, Octobre 2021</span></div>
+                                <div><i class="fas fa-map-marker-alt"></i> <span>Douala, 2.5km du Centre</span></div>
                             </div>
                         </div>
                         <a class="article__btn" href="#">En savoir plus</a>
@@ -70,26 +81,71 @@
                     <article class="article">
                         <div class="article__image-box">
                             <span class="article__price">900 000 FCFA / AN</span>
-                            <img src="./assets/images/house-2.jpg" alt="">
+                            <img src="./assets/images/house-3.jpeg" alt="">
                         </div>
                         <div class="article__info">
-                            <h2>Maloum Appartement & Fils</h2>
+                            <div class="article__heading">
+                                <h2 class="article__title">Maloum Appartement & Fils </h2>
+                                <span class="article__bookmark-icon"><i class="far fa-bookmark"></i></span>
+                            </div>
+                            <div class="article__stars">
+
+                            </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     Odit illo iure voluptate vitae laborum pariatur sunt repellat neque itaque reiciendis hic atque, voluptatibus, 
                                     labore totam nihil fugit quidem! Porr...</p>
+                            <div class="article__meta">
+                                <div><i class="fas fa-calendar-alt"></i> <span>Publiée le 20, Octobre 2021</span></div>
+                                <div><i class="fas fa-map-marker-alt"></i> <span>Douala, 2.5km du Centre</span></div>
+                            </div>
                         </div>
+                        <a class="article__btn" href="#">En savoir plus</a>
                     </article>
                     <article class="article">
                         <div class="article__image-box">
-                            <span class="article__price">200 000 FCFA / AN</span>
-                            <img src="./assets/images/house-1.jpg" alt="">
+                            <span class="article__price">2 300 000 FCFA / AN</span>
+                            <img src="./assets/images/house-4.jpeg" alt="">
                         </div>
                         <div class="article__info">
-                            <h2>Maloum Appartement & Fils</h2>
+                            <div class="article__heading">
+                                <h2 class="article__title">Maloum Appartement & Fils </h2>
+                                <span class="article__bookmark-icon"><i class="far fa-bookmark"></i></span>
+                            </div>
+                            <div class="article__stars">
+
+                            </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     Odit illo iure voluptate vitae laborum pariatur sunt repellat neque itaque reiciendis hic atque, voluptatibus, 
                                     labore totam nihil fugit quidem! Porr...</p>
+                            <div class="article__meta">
+                                <div><i class="fas fa-calendar-alt"></i> <span>Publiée le 20, Octobre 2021</span></div>
+                                <div><i class="fas fa-map-marker-alt"></i> <span>Douala, 2.5km du Centre</span></div>
+                            </div>
                         </div>
+                        <a class="article__btn" href="#">En savoir plus</a>
+                    </article>
+                    <article class="article">
+                        <div class="article__image-box">
+                            <span class="article__price">1 200 000 FCFA / AN</span>
+                            <img src="./assets/images/house-5.jpeg" alt="">
+                        </div>
+                        <div class="article__info">
+                            <div class="article__heading">
+                                <h2 class="article__title">Maloum Appartement & Fils </h2>
+                                <span class="article__bookmark-icon"><i class="far fa-bookmark"></i></span>
+                            </div>
+                            <div class="article__stars">
+
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Odit illo iure voluptate vitae laborum pariatur sunt repellat neque itaque reiciendis hic atque, voluptatibus, 
+                                    labore totam nihil fugit quidem! Porr...</p>
+                            <div class="article__meta">
+                                <div><i class="fas fa-calendar-alt"></i> <span>Publiée le 20, Octobre 2021</span></div>
+                                <div><i class="fas fa-map-marker-alt"></i> <span>Douala, 2.5km du Centre</span></div>
+                            </div>
+                        </div>
+                        <a class="article__btn" href="#">En savoir plus</a>
                     </article>
                 </section>
             </div>
