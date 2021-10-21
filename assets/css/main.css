@@ -186,6 +186,9 @@ body {
           justify-content: space-between;
   background-color: #002042;
   height: 6rem;
+  position: fixed;
+  width: 100%;
+  z-index: 200;
 }
 
 .nav__user-icon {
@@ -337,7 +340,8 @@ body {
 }
 
 .menu-mobile {
-  position: absolute;
+  position: fixed;
+  overflow: scroll;
   top: 6rem;
   left: 0;
   background-color: #002042;
@@ -354,7 +358,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   height: calc(100vh - 6rem);
-  z-index: 20;
+  z-index: 200;
   width: 0;
   -webkit-transition: width 0.5s ease-in-out;
   transition: width 0.5s ease-in-out;
@@ -382,7 +386,7 @@ body {
 }
 
 .menu-mobile.active {
-  width: 80%;
+  width: 100%;
 }
 
 .menu-mobile.active a {
