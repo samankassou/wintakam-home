@@ -127,20 +127,6 @@ body {
 .header {
     padding: 2rem 1rem;
     padding-top: 6rem;
-
-    &__logo {
-        padding: 1rem 0;
-
-        img {
-            height: 3rem;
-            margin: 0 auto;
-
-            @media screen and (min-width: 540px) {
-                height: 4rem;
-            }
-        }
-    }
-
     &__description {
         color: #fff;
         text-align: center;

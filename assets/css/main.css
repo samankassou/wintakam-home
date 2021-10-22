@@ -235,21 +235,6 @@ body {
   padding-top: 6rem;
 }
 
-.header__logo {
-  padding: 1rem 0;
-}
-
-.header__logo img {
-  height: 3rem;
-  margin: 0 auto;
-}
-
-@media screen and (min-width: 540px) {
-  .header__logo img {
-    height: 4rem;
-  }
-}
-
 .header__description {
   color: #fff;
   text-align: center;
