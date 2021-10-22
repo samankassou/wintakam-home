@@ -117,7 +117,7 @@ body {
 }
 
 .content {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/home-bg.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/home-bg.jpg");
     background-position: center center;
     background-size: cover;
     min-height: calc(100vh - 6rem);
@@ -127,6 +127,7 @@ body {
 .header {
     padding: 2rem 1rem;
     padding-top: 6rem;
+
     &__description {
         color: #fff;
         text-align: center;
