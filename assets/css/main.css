@@ -188,6 +188,7 @@ body {
   height: 6rem;
   position: fixed;
   width: 100%;
+  max-width: 1280px;
   z-index: 200;
 }
 
@@ -201,6 +202,12 @@ body {
   .nav__user-icon {
     margin-right: 1.5rem;
     font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav__user-icon {
+    display: none;
   }
 }
 
@@ -225,6 +232,7 @@ body {
 
 .header {
   padding: 2rem 1rem;
+  padding-top: 6rem;
 }
 
 .header__logo {
@@ -246,7 +254,7 @@ body {
   color: #fff;
   text-align: center;
   margin: 1rem 0;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 @media screen and (min-width: 540px) {
@@ -399,6 +407,10 @@ body {
 .section {
   background-color: #e2e2e2;
   margin-top: 3rem;
+}
+
+.section--no-mt {
+  margin-top: 0;
 }
 
 .section__heading {
