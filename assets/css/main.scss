@@ -293,6 +293,20 @@ body {
         flex-wrap: wrap;
         gap: 1%;
     }
+    &__load-more-btn{
+        display: block;
+        width: 9rem;
+        margin: 1rem auto;
+        margin-bottom: 0;
+        padding: 0.5rem 1rem;
+        background-color: #002042;
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+}
+.latest-posts{
+    padding-bottom: 2rem;
 }
 
 .article {
