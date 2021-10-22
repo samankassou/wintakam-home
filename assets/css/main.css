@@ -694,4 +694,27 @@ body {
     font-size: 0.7rem;
   }
 }
+
+.city {
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.city__link {
+  display: block;
+  position: relative;
+}
+
+.city__name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #fff;
+  font-weight: 700;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.3);
+}
 /*# sourceMappingURL=main.css.map */
